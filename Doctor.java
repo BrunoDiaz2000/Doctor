@@ -3,7 +3,7 @@ class Doctor {
    int edad;
 
    public void mostrarEspecialidad() {
-      System.out.println("Hola soy especialista en : " + this.especialidad);
+      System.out.println("Hola mi especialista es: " + this.especialidad);
    }
    public void mostrarNombre() {
       System.out.println("Hola soy: " + this.nombre);
