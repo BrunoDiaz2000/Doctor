@@ -1,11 +1,12 @@
 class Doctor {
-   String especialidad, nombre;
+   String nombre;
+   String especialidad;
    int edad;
 
    Doctor() {
-      System.out.println("Se esta construyendo el metodo constructor");
+      System.out.println("\nSe esta construyendo el metodo constructor\n");
    }
-
+   
    public void mostrarEspecialidad() {
       System.out.println("Hola mi especialista es: " + this.especialidad);
    }
